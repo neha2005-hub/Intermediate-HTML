@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        form {
+            background-color: blueviolet;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        textarea {
+            width: 400px; 
+            height: 100px; 
+            padding: 10px;
+        }
+
+        button {
+            align-items: center;
+            margin-top: 10px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="first.html">
+        <h1 align="center">Information Form</h1>
+
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="name">Name : </label>
+            <input type="text" placeholder="Enter your name" id="name"><br><br>
+            
+            <label for="address">Address : </label>
+            <input type="text" placeholder="Enter your Address" id="address"><br><br>
+            
+            <label for="email">Email : </label>
+            <input type="email" placeholder="Enter your Email" id="email"><br><br>
+            
+            <label for="number">Number : </label> 
+            <input type="text" placeholder="Enter your Number" id="number"><br><br>
+            
+            <label for="gender">Please select your gender : </label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Additional Information</legend>
+            <label for="information">Enter Your Background Information</label><br>
+            <textarea id="information" placeholder="Enter Your Background Information"></textarea>
+        </fieldset>
+
+        <center>
+            <button type="submit">Submit</button>
+        </center>
+    </form>
+</body>
+</html>
