@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Gallery</title>
+  <style>
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    figure {
+      width: 200px;
+      text-align: center;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    figcaption {
+      margin-top: 8px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Image Gallery</h2>
+
+  <div class="gallery">
+    <figure>
+      <img src="rose.png" alt="Image 1">
+      <figcaption>Rose</figcaption>
+    </figure>
+    <figure>
+      <img src="cat.png" alt="Image 2">
+      <figcaption>Cat</figcaption>
+    </figure>
+    <figure>
+      <img src="dog.png" alt="Image 3">
+      <figcaption>Dog</figcaption>
+    </figure>
+  </div>
+
+</body>
+</html>
