@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Form with Validation</title>
+</head>
+<body>
+
+  <h2>Contact Us</h2>
+  <form action="first.html" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" pattern="[A-Za-z\s]{2,50}" required>
+    <small>(Only letters, 2-50 characters)</small><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+    <small>(example@gmail.com)</small><br><br>
+
+    <label for="phone">Phone:</label><br>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+    <small>(10-digit number only)</small><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
