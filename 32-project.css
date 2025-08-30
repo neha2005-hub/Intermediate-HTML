@@ -1,0 +1,21 @@
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+caption {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+thead {
+    background-color: #f0f0f0;
+}
+tfoot {
+    background-color: #dcdcdc;
+    font-weight: bold;
+}
